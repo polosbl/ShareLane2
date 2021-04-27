@@ -47,7 +47,7 @@ public class ShareLaneTest {
         driver.findElement(By.name("password1")).sendKeys("pass" + randomNumber);
         driver.findElement(By.name("password2")).sendKeys("pass" + randomNumber);
         driver.findElement(By.xpath("//*[@value='Register']")).click();
-// тут надо проверить результат
+// тут надо проверить результат111
 //        driver.quit();
     }
 }
