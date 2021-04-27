@@ -49,6 +49,7 @@ public class ShareLaneTest {
         driver.findElement(By.xpath("//*[@value='Register']")).click();
 // тут надо проверить результат111
         // feature_lesson5
+        // Added comment
 //        driver.quit();
     }
 }
