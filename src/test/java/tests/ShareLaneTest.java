@@ -26,7 +26,7 @@ public class ShareLaneTest {
         Assert.assertTrue(driver.findElement(By.xpath("//*[@value='Continue']")).isDisplayed(),
                 "Button 'Continue' is not displayed");
         driver.findElement(By.xpath("//*[@value='Continue']")).click();
-//        driver.quit();
+        driver.quit();
     }
 
     @Test
@@ -50,7 +50,7 @@ public class ShareLaneTest {
         Assert.assertEquals(element.getText(),
                 "Oops, error on page. Some of your fields have invalid data or email was previously used",
                 "Error text is incorrect");
-//        driver.quit();
+        driver.quit();
     }
 
     @Test
@@ -79,7 +79,7 @@ public class ShareLaneTest {
         Assert.assertEquals(element.getText(),
                 "Account is created!",
                 "Confirmation text is incorrect");
-//        driver.quit();
+        driver.quit();
     }
 
     @Test
@@ -108,7 +108,7 @@ public class ShareLaneTest {
         Assert.assertEquals(element.getText(),
                 "Oops, error on page. Some of your fields have invalid data or email was previously used",
                 "Error text is incorrect");
-//        driver.quit();
+        driver.quit();
     }
 
     @Test
@@ -137,7 +137,7 @@ public class ShareLaneTest {
         Assert.assertEquals(element.getText(),
                 "Oops, error on page. Some of your fields have invalid data or email was previously used",
                 "Error text is incorrect");
-//        driver.quit();
+        driver.quit();
     }
 
     @Test
@@ -166,6 +166,6 @@ public class ShareLaneTest {
         Assert.assertEquals(element.getText(),
                 "Oops, error on page. Some of your fields have invalid data or email was previously used",
                 "Error text is incorrect");
-//        driver.quit();
+        driver.quit();
     }
 }
